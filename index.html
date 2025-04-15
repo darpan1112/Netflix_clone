@@ -1,0 +1,64 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function logoutUser() {
+      localStorage.removeItem("loggedIn");
+      alert("Logged out successfully.");
+      window.location.href = "login.html";
+    }
+  </script>  
+  
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-n">N</span>ETFLIX
+    </div>
+    <nav class="menu">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="tv-shows.html" data-page="tv">TV Shows</a>
+      <a href="movies.html" data-page="movies">Movies</a>
+    </nav>
+    <div class="search-wrapper">
+      <input type="text" id="search" placeholder="Search..." />
+      <button id="search-btn">Search</button>
+      <button onclick="logoutUser()">Logout</button>
+    </div>
+  </header>
+
+  <main id="app">
+    <section class="hero">
+      <img src="images/pushpa-2.jpg" alt="Featured Movie" class="hero-img" />
+      <div class="hero-content">
+        <h1>Featured Movie</h1>
+        <p>Watch something amazing today.</p>
+      </div>
+    </section>
+
+    <section class="row" id="popular">
+      <h2>Popular Movies</h2>
+      <div class="row-posters"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Netflix Clone</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function logoutUser() {
+      localStorage.removeItem("loggedIn");
+      alert("Logged out successfully.");
+      window.location.href = "login.html";
+    }
+  </script>
+  
+</body>
+</html>

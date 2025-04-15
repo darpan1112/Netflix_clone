@@ -1,0 +1,47 @@
+<!-- movies.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Netflix Clone - Movies</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-n">N</span>ETFLIX
+    </div>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="tv-shows.html">TV Shows</a>
+      <a href="movies.html">Movies</a>
+    </nav>
+    <div class="search-wrapper">
+      <input type="text" id="search" placeholder="Search..." />
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+
+  <main id="app">
+    <section class="hero">
+      <img src="images/amar-singh-chamkila-2024-ExdbBG.jpg" alt="Movies" class="hero-img" />
+      <div class="hero-content">
+        <h1>Top Movies</h1>
+        <p>Explore your favorite movies.</p>
+      </div>
+    </section>
+
+    <section class="row" id="popular">
+      <h2>Blockbusters</h2>
+      <div class="row-posters"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Netflix Clone</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Inception",
+    "poster": "https://image.tmdb.org/t/p/w300//9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+  },
+  {
+    "title": "The Matrix",
+    "poster": "https://image.tmdb.org/t/p/w300//f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "poster": "https://image.tmdb.org/t/p/w300//gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "https://image.tmdb.org/t/p/w300//1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "poster": "https://image.tmdb.org/t/p/w300//or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+  },
+  {
+    "title": "Pushpa 2",
+    "poster": "images/pushpa-2.jpg"
+  },
+  {
+    "title": "Amar Singh Chamkila",
+    "poster": "images/amar-singh-chamkila-2024-ExdbBG.jpg"
+  },
+  {
+    "title": "The Great Indian Kapil Show",
+    "poster": "images/photo.avif"
+  }
+]
